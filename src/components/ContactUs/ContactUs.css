@@ -1,0 +1,57 @@
+.contactus {
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contactus-title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.contactus-content {
+  display: flex;
+  gap: 20px;
+}
+
+.contactus-text {
+  line-height: 24px;
+  flex: 2 1 0px;
+}
+
+.contactus-contacts {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus-callbtn {
+  width: max-content;
+  color: white;
+  padding: 14px 36px;
+  font-size: 18px;
+  border-radius: 12px;
+  background: #09F;
+  border: none;
+  margin: 15px 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contactus-callbtn:hover {
+  box-shadow: 0px 7px 24px rgba(0, 102, 255, 0.4);
+}
+
+.contactus-callbtn:active {
+  box-shadow: 0px 1px 10px rgba(0, 102, 255, 0.4);
+}
+
+
+@media only screen and (max-width: 765px) {
+  .contactus-content {
+    flex-direction: column;
+  }
+}
