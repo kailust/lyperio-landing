@@ -1,0 +1,31 @@
+.services {
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.serv-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.serv-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 24px;
+}
+
+.serv-one-title {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.serv-one-content {
+  font-size: 16px;
+  margin-bottom: 14px;
+}

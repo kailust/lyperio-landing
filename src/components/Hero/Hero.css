@@ -1,0 +1,47 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-title {
+  background: linear-gradient(139deg, #000 0%, #989898 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.hero-subtitle {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: -5px;
+}
+
+.hero-description {
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 426px) {
+  .hero-title {
+    font-size: 36px;
+  }
+  .hero-subtitle {
+    font-size: 20px;
+  }
+  .hero-description {
+    font-size: 14px;
+  }
+}
