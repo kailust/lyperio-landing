@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import './Hero.css'
 import CalendlyBtn from '@/lib/components/CalendlyBtn/CalendlyBtn'
 import DemoModal from '@/lib/components/DemoModal/DemoModal'
@@ -26,16 +25,6 @@ export default function Hero() {
       </p>
       <div className='hero-buttons'>
         <CalendlyBtn className='hero-btn-call' text='Book a Discovery Call' />
-        <button className='hero-btn-demo' onClick={() => setIsOpen(true)}>
-          <div className='hero-btn-demo-logo'>
-            <Image
-              src='/watch.svg'
-              alt='watch-demo-icon'
-              fill
-            />
-          </div>
-          Watch a Demo
-        </button>
       </div>
       <DemoModal isOpen={isOpen} handleClose={() => setIsOpen(false)} />
     </motion.div>

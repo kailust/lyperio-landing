@@ -29,7 +29,7 @@
 }
 
 .hero-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -92,15 +92,7 @@
   }
 
   .hero-title {
-    font-size: 36px;
-  }
-
-  .hero-subtitle {
-    font-size: 20px;
-  }
-
-  .hero-description {
-    font-size: 14px;
+    font-size: 34px;
   }
 
   .hero-buttons {
