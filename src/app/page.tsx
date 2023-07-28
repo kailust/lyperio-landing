@@ -10,16 +10,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Toolbar />
-      <Hero />
-      <Services />
-      <AboutUs />
-      <ContactUs />
-      <Footer />
-
-      <div>
-        <div className={styles.blur1} />
-        <div className={styles.blur2} />
+      <div className={styles.content}>
+        <Hero />
+        <Services />
+        <AboutUs />
+        <ContactUs />
       </div>
+      <Footer />
     </main>
   )
 }

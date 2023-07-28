@@ -1,57 +1,48 @@
 .contactus {
-  max-width: var(--max-width);
+  box-sizing: border-box;
   display: flex;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 24px 8px;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--blue-gradient);
+  color: black;
+}
+
+.contactus-name {
+  font-size: 16px;
 }
 
 .contactus-title {
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 25px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.contactus-content {
-  display: flex;
-  gap: 20px;
+.contactus-description {
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
 }
 
-.contactus-text {
-  line-height: 24px;
-  flex: 2 1 0px;
-}
-
-.contactus-contacts {
-  flex: 1 1 0px;
-  display: flex;
-  flex-direction: column;
-}
-
-.contactus-callbtn {
-  width: max-content;
+.contactus-btn {
   color: white;
-  padding: 14px 36px;
   font-size: 18px;
-  border-radius: 12px;
-  background: #09F;
+  font-weight: 500;
+  padding: 14px 30px;
+  border-radius: 8px;
   border: none;
-  margin: 15px 0;
+  background: linear-gradient(135deg, #FF2424 0%, #FFB321 100%);
   transition-duration: 0.4s;
-  cursor: pointer;
 }
 
-.contactus-callbtn:hover {
-  box-shadow: 0px 7px 24px rgba(0, 102, 255, 0.4);
+.contactus-btn:hover {
+  box-shadow: 0px 7px 24px rgba(255, 122, 20, 0.4);
 }
 
-.contactus-callbtn:active {
-  box-shadow: 0px 1px 10px rgba(0, 102, 255, 0.4);
-}
-
-
-@media only screen and (max-width: 765px) {
-  .contactus-content {
-    flex-direction: column;
-  }
+.contactus-btn:active {
+  box-shadow: 0px 7px 12px rgba(255, 122, 20, 0.4);
 }

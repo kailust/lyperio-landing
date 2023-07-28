@@ -1,14 +1,18 @@
+import Image from 'next/image'
+import './Footer.css'
+
 export default function Footer() {
   return (
-    <div style={{
-      padding: '30px 0',
-      background: '#F5F5F5',
-      maxWidth: 'var(--max-width)',
-      width: '100vw',
-      textAlign: 'center',
-      margin: '0 -5px'
-    }}>
-      Copyright 2023 Lyperio.com All Rights Reserved
+    <div className='footer'>
+      <Image
+        src='/logo-s.svg'
+        alt='lyperio-logo-s'
+        width={50}
+        height={32}
+      />
+      <p className='footer-text'>
+        © 2023 Lyperio All rights reserved
+      </p>
     </div>
   )
 }

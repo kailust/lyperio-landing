@@ -1,27 +1,17 @@
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   min-height: 100vh;
-  height: 100vh;
-  margin: 0 15px;
+  margin: 0 4px;
   position: relative;
 }
 
-
-/* .blur2::before {
-  content: "";
-  border-radius: 612px;
-  background: #7BD7FF;
-  filter: blur(350px);
-  width: 612px;
-  height: 612px;
-  flex-shrink: 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  pointer-events: none;
-  transform: translate(0, 0);
-} */
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}

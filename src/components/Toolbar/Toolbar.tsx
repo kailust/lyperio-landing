@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import './Toolbar.css'
+import CalendlyBtn from '@/lib/components/CalendlyBtn/CalendlyBtn'
 
 export default function Toolbar() {
   return (
@@ -15,10 +16,8 @@ export default function Toolbar() {
         <a href='#home'>Home</a>
         <a href='#services'>Serivces</a>
         <a href='#about-us'>About Us</a>
+        <CalendlyBtn className='tb-btn' text='Book a Call' />
       </div>
-      <a href='#contact-us' className='tb-btn'>
-        Contact Us
-      </a>
     </div>
   )
 }
