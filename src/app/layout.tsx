@@ -19,8 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel='icon' href='/favicon.ico' />
-        <meta property='og:image' content='https://lyperio.com/api/og' />
-        <meta property='twitter:image' content='https://lyperio.com/api/og' />
+        <meta property='og:image' content='https://lyperio.com/og-image.svg' />
+        <meta property='og:image:secure_url' content='https://lyperio.com/og-image.svg' />
       </head>
       <body className={montserrat.className}>
         {children}
