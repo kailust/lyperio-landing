@@ -7,7 +7,7 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Lyperio',
-  description: 'AI Automation Agency for Short Rental Companies',
+  description: 'AI Automation Agency for Short-Term Rental Companies',
 }
 
 export default function RootLayout({
@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='/favicon.ico'/>
+        <link rel='icon' href='/favicon.ico' />
+        <meta property='og:image' content='https://lyperio.com/api/og' />
+        <meta property='twitter:image' content='https://lyperio.com/api/og' />
       </head>
       <body className={montserrat.className}>
         {children}
