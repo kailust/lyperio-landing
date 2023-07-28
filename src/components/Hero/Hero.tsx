@@ -1,20 +1,9 @@
-'use client'
-
 import './Hero.css'
 import CalendlyBtn from '@/lib/components/CalendlyBtn/CalendlyBtn'
-import DemoModal from '@/lib/components/DemoModal/DemoModal'
-import { useState } from 'react'
-import { motion } from 'framer-motion';
 
 export default function Hero() {
-  const [isOpen, setIsOpen] = useState<boolean>(false)
-
   return (
-    <motion.div className='hero' id='home'
-      animate={{ opacity: 1 }}
-      initial={{ opacity: 0 }}
-      transition={{ ease: "easeIn", duration: 0.5 }}
-    >
+    <div className='hero' id='home'>
       <p className='hero-title'>
         Unlock Your Rental Business's Potential with <span className='text-gradient'>AI Automation</span>
       </p>
@@ -26,7 +15,6 @@ export default function Hero() {
       <div className='hero-buttons'>
         <CalendlyBtn className='hero-btn-call' text='Book a Discovery Call' />
       </div>
-      <DemoModal isOpen={isOpen} handleClose={() => setIsOpen(false)} />
-    </motion.div>
+    </div>
   )
 }
