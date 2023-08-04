@@ -13,22 +13,21 @@ export default function Services() {
       </div>
       <div className='serv-items'>
         <Service
-          iconSrc='/chatgpt.svg'
-          title='Guest Communication Chatbot'
-          description="Let your guests ask questions to our Chatbot, while you answer only 
-            specific questions, which then can be covered. Secure access via security token"
+          iconSrc='/chat.svg'
+          title='Onboarding Automation'
+          description="Automate your onboarding process. From contract generation and invoicing to 
+          communication setup. Reduce onboarding time and increase close rates"
         />
         <Service
-          iconSrc='/chat.svg'
+          iconSrc='/chatgpt.svg'
           title='Website Chatbot'
-          description="Provide instant answers to your website visitors, enhancing 
-            chances of booking your apartments. Custom logic for your needs"
+          description="Engage website visitors and capture leads with an interactive chatbot. 
+          Customize it to match your requirements and enhance conversion rates"
         />
         <Service
           iconSrc='/robot.svg'
           title='AI Automations'
-          description="Save countless hours by automating any task. Eliminate human errors
-            with automation. Use AI for human imitation. Benefit from instant actions"
+          description="Leverage AI to automate tasks and eliminate human errors. Enjoy human-like interactions powered by AI, driving instant actions for your business."
         />        
       </div>
     </div>
