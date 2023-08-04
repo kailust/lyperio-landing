@@ -17,13 +17,13 @@ export default function AboutUs() {
       <div className='aboutus-content'>
         <p>
           Lyperio, founded in 2023 by a passionate software developer, is on a mission to
-          solve challenges in the short-term rental industry through AI automation. Leveraging
+          solve challenges in the marketing industry through AI automation. Leveraging
           expertise in no-code, low-code, and custom-coded solutions, we develop robust automation
           tools, imitating human behavior to unlock efficiency.
         </p>
         <p>
           As a small yet dedicated team, we drive innovation and help clients thrive in the
-          dynamic world of short-term rentals. Our unique approach blends various automation techniques,
+          dynamic world of marketing. Our unique approach blends various automation techniques,
           creating stable, complex solutions using AI algorithms, empowering clients to overcome
           obstacles and achieve success.
         </p>

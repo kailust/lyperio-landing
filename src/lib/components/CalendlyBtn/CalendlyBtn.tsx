@@ -21,7 +21,7 @@ export default function CalendlyBtn(props: CalendlyBtnProps) {
         className={props.className}
         rootElement={element as HTMLElement}
         text={props.text}
-        url='https://calendly.com/lyperio/discovery-call'
+        url='https://calendly.com/lyperio/ai-discovery'
       />
   )
 }
