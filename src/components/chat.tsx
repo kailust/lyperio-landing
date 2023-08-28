@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const messages: string[] = [
   'hello, how to turn on the hot water?',
-  'Hi! To turn on the hot water in the shower, simply adjust the hot and cold knobs until you reach your desired temperature. Enjoy your stay!',
+  'Hi there! To turn on the hot water, you\'ll need to locate the water heater in the kitchen, above the sink. Look for the turn-on button on the right side of the water heater. You can check if it\'s turned on by looking for a red light on the bottom of the water heater. If it was not turned on, just wait about 10 minutes for the water to heat up. Enjoy your hot water!',
   'whats the closest subway?',
   'The closest subway station is Poble Sec. It\'s conveniently located near the rental property. Remember to purchase a ticket to access the transportation system. Let me know if there\'s anything else I can help you with!',
   'how to connect to wifi',
