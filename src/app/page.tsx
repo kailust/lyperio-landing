@@ -1,22 +1,25 @@
-import Toolbar from '@/components/Toolbar/Toolbar'
-import styles from './page.module.css'
-import Hero from '@/components/Hero/Hero'
-import Services from '@/components/Services/Services'
-import AboutUs from '@/components/AboutUs/AboutUs'
-import ContactUs from '@/components/ContactUs/ContactUs'
-import Footer from '@/components/Footer/Footer'
+import AboutUs from './_sections/aboutus'
+import Benefits from './_sections/benefits'
+import ContactUs from './_sections/contactus'
+import Faq from './_sections/faq'
+import Footer from './_sections/footer'
+import Hero from './_sections/hero'
+import Nav from './_sections/nav'
+import Service from './_sections/service'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Toolbar />
-      <div className={styles.content}>
+    <div>
+      <Nav />
+      <main className='my-4 max-w-6xl mx-auto px-2 md:px-4 flex flex-col gap-6'>
         <Hero />
-        <Services />
+        <Benefits />
+        <Service />
         <AboutUs />
+        <Faq />
         <ContactUs />
-      </div>
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }

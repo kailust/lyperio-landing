@@ -1,13 +1,19 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
+import { Providers } from './providers'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lyperio',
+  title: 'Lyperio | AI Automation',
   description: 'AI Automation Agency for Short-Term Rental Companies',
+  openGraph: {
+    type: "website",
+    images: [
+      'https://lyperio.com/og-image.svg'
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -17,14 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel='icon' href='/favicon.ico' />
-        <meta property='og:image' content='https://lyperio.com/og-image.svg' />
-        <meta property='og:image:secure_url' content='https://lyperio.com/og-image.svg' />
-      </head>
       <body className={montserrat.className}>
-        {children}
-        <Analytics />
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )
