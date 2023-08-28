@@ -43,7 +43,7 @@ export default function Chat(props: { classNames: string }) {
   return (
     <ScrollShadow hideScrollBar className={props.classNames + " scroll-container"}>
       <div className="flex flex-col gap-2">
-        {messages.map((str, idx) => <Message inbound={idx % 2 == 0} text={str} />)}
+        {messages.map((str, idx) => <Message key={idx} inbound={idx % 2 == 0} text={str} />)}
       </div>
     </ScrollShadow>
   )

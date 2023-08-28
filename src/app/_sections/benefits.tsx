@@ -51,8 +51,8 @@ export default function Benefits() {
         </span>
       </div>
       <div className="flex gap-2 flex-wrap">
-        {benefits.map(ben => (
-          <Card shadow="sm" className="min-w-[160px] md:min-w-[260px] w-min flex-1">
+        {benefits.map((ben, idx) => (
+          <Card key={idx} shadow="sm" className="min-w-[160px] md:min-w-[260px] w-min flex-1">
             <CardBody className="flex flex-col items-center">
               <div className="font-semibold text-center mb-1">
                 {ben.title}
