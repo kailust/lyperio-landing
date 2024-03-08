@@ -4,7 +4,7 @@ import { Card, CardBody } from "@nextui-org/card"
 import { Button } from "@nextui-org/button"
 import { Modal, ModalContent, useDisclosure } from "@nextui-org/modal";
 import Image from "next/image";
-import dashboard from "../../../public/dashborad.png"
+import dashboard from "../../../public/dashboard.png"
 
 const benefits: { title: string, description: string }[] = [
   {
