@@ -10,7 +10,7 @@ export default function ContactUs() {
       </CalendlyBtn>
       <div className="flex flex-col items-center w-full">
         <div className="font-medium text-center">Text the founder</div>
-        <a href="mailto:denys@lyperio.com">denys@lyperio.com</a>
+        <a href="mailto:dhonam@playkidx.com.com">dhonam@playkidx.com</a>
       </div>
     </div>
   )
