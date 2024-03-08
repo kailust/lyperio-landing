@@ -7,12 +7,12 @@ import { Analytics } from '@vercel/analytics/react';
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lyperio | AI Automation',
-  description: 'AI Automation Agency for Short-Term Rental Companies',
+  title: 'KidX AI | Education Solutions',
+  description: 'Empowering Education with AI Solutions for Kids',
   openGraph: {
     type: "website",
     images: [
-      'https://lyperio.com/og-image.svg'
+      'https://kidxai.com/og-image.svg'
     ]
   }
 }

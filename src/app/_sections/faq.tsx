@@ -4,40 +4,40 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 const faqs: { question: string, answer: string }[] = [
   {
-    question: 'What is an AI Guest Experience Manager, and how can it benefit my short-term rental management company?',
-    answer: 'Every guest asks pretty much the same questions - what\'s the wifi password, where is the key, how to turn hot water on, etc. It takes so much time that you either have no time for other things or have to hire someone to answer them. That\'s where our solution can help you. We help you answer these questions one last time and then use these answers to train AI model to handle these questions with your guests, saving you time and money, so you can focus on what\'s important - scailing your business'
+    question: 'What is KidX AI and how can it benefit my child\'s learning experience?',
+    answer: 'KidX AI is an educational platform designed to enhance your child\'s learning journey. It offers personalized learning experiences tailored to your child\'s needs and preferences. By leveraging AI technology, KidX AI provides interactive lessons, adaptive learning paths, and continuous feedback to support your child\'s academic growth and development.'
   },
   {
-    question: 'Can I customize the AI\'s responses to match the tone and style of my company\'s brand?',
-    answer: 'Yes, we can "tell AI how to act" to match your expectations in tone and style of speaking'
+    question: 'Can I customize the content to align with my child\'s learning goals and interests?',
+    answer: 'Yes, KidX AI allows parents to customize the learning content to match their child\'s learning objectives and interests. Whether your child is interested in STEM subjects, language learning, or arts and humanities, KidX AI offers a wide range of customizable learning modules to cater to your child\'s unique needs.'
   },
   {
-    question: 'What happens if the AI encounters a new question that wasn\'t covered or a complex guest inquiry that it can\'t handle?',
-    answer: 'We will save this question to our system and seamlessly forward conversation to your support team. Later, you can cover it in apartment data for future guests and mark the question as covered or reject the question (if it is a custom inquery that can\'t be covered)'
+    question: 'What happens if my child encounters a challenging concept or question while using KidX AI?',
+    answer: 'KidX AI provides comprehensive support for children encountering challenging concepts or questions. In such cases, KidX AI offers step-by-step guidance, additional resources, and real-time assistance to help your child overcome obstacles and continue their learning journey.'
   },
   {
-    question: 'What platforms and channels are you using for communication with guests?',
-    answer: 'Depending on your Property Management Software (Hostaway, Lodgify, etc.) it can be directly in Airbnb (or any other platform) chat or through any messenger like WhatsApp or Facebook Messenger'
+    question: 'What platforms and devices are compatible with KidX AI?',
+    answer: 'KidX AI is accessible on a variety of platforms and devices, including desktop computers, laptops, tablets, and smartphones. Whether your child prefers to learn at home or on the go, KidX AI offers a seamless learning experience across different devices and operating systems.'
   },
   {
-    question: 'Is the AI capable of handling multilingual communication with guests from different parts of the world?',
-    answer: 'Yes, we save apartments info in English, but answers are generated in a language that was used to ask a question. If guest asks in Spanish, we will answer in Spanish'
+    question: 'Is KidX AI capable of supporting multilingual learning for children from diverse backgrounds?',
+    answer: 'Yes, KidX AI offers multilingual support for children from diverse linguistic backgrounds. Whether your child speaks English, Spanish, French, or any other language, KidX AI provides learning content in multiple languages to ensure accessibility and inclusivity.'
   },
   {
-    question: 'How does the web portal with analytics enhance my understanding of guest interactions and satisfaction?',
-    answer: 'You can see the how many messages are coming, response ratio for the questions, which questions needs to be covered, info about every apartment and history of conversations. It will help you understand true value of the service and keep track of answers'
+    question: 'How does the parent portal with analytics enhance my understanding of my child\'s learning progress and performance?',
+    answer: 'The parent portal with analytics provides valuable insights into your child\'s learning progress and performance. You can track your child\'s engagement, monitor their mastery of concepts, and identify areas for improvement. Additionally, the analytics dashboard offers personalized recommendations and resources to support your child\'s academic success.'
   },
   {
-    question: 'Can the AI Guest Experience Manager integrate with my existing property management software or tools?',
-    answer: 'We will try our best, but it depends on your software. Some tools just don\'t offer such possibility with no workarounds'
+    question: 'Can KidX AI integrate with my child\'s school curriculum or other educational resources?',
+    answer: 'Yes, KidX AI offers seamless integration with your child\'s school curriculum and other educational resources. Whether your child attends a traditional school, homeschool, or online learning program, KidX AI can complement existing educational initiatives and enhance your child\'s learning experience.'
   },
   {
-    question: 'How does your pricing structure work for your AI automation services and what\'s included?',
-    answer: 'We usually take one-time setup fee and then monthly support fee. During setup process we clarify your requirements, develop solution for your needs, help you prepare apartment data and teach your staff how to use the system. Support fee includes all the expenses for the solutions, regular updating of apartments data, system improvements and teaching your new staff if needed'
+    question: 'How does the pricing structure work for KidX AI\'s educational content and what\'s included?',
+    answer: 'KidX AI typically offers subscription-based pricing plans for access to its educational content. The pricing plans may include access to interactive lessons, personalized learning modules, real-time feedback, and parental monitoring tools. Additionally, KidX AI may offer tiered pricing options with varying levels of access and features to accommodate different budgetary and educational needs.'
   },
   {
-    question: 'Is there a setup process, and how long does it usually take to get the AI up and running?',
-    answer: 'It usually takes about 1 week. Developing on our end takes couple working days, then creating of aparmtent data along with a call with your team to show them how the system works'
+    question: 'Is there a setup process for KidX AI, and how long does it usually take to get started?',
+    answer: 'The setup process for KidX AI is simple and straightforward. Upon signing up for a subscription, you will receive login credentials to access the platform. From there, you can customize your child\'s learning profile, set learning goals, and explore the available learning content. The setup process typically takes only a few minutes, allowing your child to start learning and exploring KidX AI\'s educational offerings right away.'
   },
 ]
 

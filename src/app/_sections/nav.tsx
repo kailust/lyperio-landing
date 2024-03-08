@@ -9,7 +9,7 @@ export default function Nav() {
       <NavbarBrand>
         <Image
           src={logo}
-          alt="lyperio-logo"
+          alt="kidx-logo"
         />
       </NavbarBrand>
       <NavbarContent justify="end">

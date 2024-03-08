@@ -1,52 +1,48 @@
-import { Card, CardBody } from "@nextui-org/card"
+import { Card, CardBody } from "@nextui-org/card";
 
 const steps: { title: string, description: string }[] = [
   {
     title: 'Free Consultation',
-    description: 'We begin with an exploratory discussion where we aim to understand your business, its operations, existing technology stack, and key pain points. We also delve into your strategic goals to ensure our solutions align with your long-term vision.'
+    description: 'We begin with an in-depth discussion to understand your educational goals, current systems, and pain points. This helps us tailor our AI solutions to meet your specific needs and objectives.'
   },
   {
     title: 'Opportunity Identification',
-    description: 'Using our deep understanding of your business, we identify areas where AI and automation can bring significant value. We prioritize opportunities based on potential impact, feasibility, and alignment with your business goals.'
+    description: 'Leveraging our expertise in AI technology, we identify areas where AI can enhance learning experiences and streamline educational processes. We prioritize opportunities based on their potential impact and alignment with your educational vision.'
   },
   {
     title: 'Solution Design',
-    description: 'Once opportunities are identified, our team of AI experts and developers get to work on designing the right solution. This involves conceptualizing the AI model or automation system, defining how it integrates with existing processes, and planning for scalability.'
+    description: 'Our team of AI experts designs customized solutions tailored to your educational requirements. This involves conceptualizing AI models, defining integration strategies, and ensuring scalability to support your growing needs.'
   },
   {
     title: 'Development & Testing',
-    description: 'We employ agile development practices to ensure rapid and quality solution delivery. Throughout the process, we maintain regular communication with you. Thorough testing is performed to guarantee the functionality and robustness of the solution.'
+    description: 'Using agile development methodologies, we build and test AI solutions to ensure they meet your standards of quality and functionality. Continuous communication and feedback loops are maintained throughout the process.'
   },
   {
     title: 'Implementation & Integration',
-    description: 'After the solution is fine-tuned and approved, we proceed with its implementation. We ensure seamless integration with your existing systems and workflows, minimizing disruption to your ongoing operations.'
+    description: 'Once developed, we seamlessly integrate AI solutions into your existing educational platforms and workflows. Our goal is to minimize disruption and ensure a smooth transition for educators and students alike.'
   },
   {
     title: 'Training & Support',
-    description: 'We provide comprehensive training to your team, equipping them to effectively use and manage the new tools. Furthermore, we offer ongoing support and maintenance services to ensure your solution continues to deliver optimal results.'
+    description: 'We provide comprehensive training to educators and staff members on how to effectively utilize AI tools in the classroom. Additionally, our dedicated support team is available to assist with any technical issues or questions.'
   },
   {
     title: 'Review & Optimization',
-    description: 'As your business evolves, so should our solutions. We continuously monitor the performance of our solutions, gather feedback, and optimize them to better serve your needs, in addition to implementating the latest AI technologies as they become available.'
+    description: 'We continuously monitor the performance of AI solutions, gather feedback, and optimize them to better serve your educational goals. As technology evolves, we stay ahead of the curve, implementing the latest advancements in AI.'
   },
-]
+];
 
 export default function Service() {
   return (
     <div className="flex items-center flex-col gap-6">
       <div className="font-semibold text-4xl text-center">
-        Supercharge Your Business with <span className="text-transparent bg-clip-text bg-gradient-primary">
-          AI
-        </span>
+        Transform Education with <span className="text-transparent bg-clip-text bg-gradient-primary">AI</span>
       </div>
       <div className="text-center">
-        At Lyperio, we offer full-stack AI development, setup and manage end-to-end AI services tailored
-        to your specific business needs. From creating scalable AI systems to automating workflows, we
-        prioritize your business efficiency.
+        KidX AI offers end-to-end AI solutions tailored to the unique needs of educational institutions. From enhancing learning experiences to automating administrative tasks, our AI solutions are designed to supercharge education.
       </div>
       <div className="flex gap-2 flex-col">
         <div className="font-semibold text-2xl text-center sticky top-20 mb-4">
-          We provide End-to-End Service
+          End-to-End Service
         </div>
         {steps.map((step, idx) => (
           <Card shadow="none" className="border-gray-200 border-1 max-w-2xl sticky" style={{top: `${9.5 + idx * 0.5}rem`}}>

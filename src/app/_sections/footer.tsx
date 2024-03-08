@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="w-max flex gap-4 items-center">
         <Image
           src={logo}
-          alt="lyperio-logo"
+          alt="kidx-logo"
           height={24}
         />
-        <div className="">© 2023 Lyperio All rights reserved</div>
+        <div className="">© 2024 KidX AI All rights reserved</div>
       </div>
     </div>
   )

@@ -4,40 +4,40 @@ import { Card, CardBody } from "@nextui-org/card"
 import { Button } from "@nextui-org/button"
 import { Modal, ModalContent, useDisclosure } from "@nextui-org/modal";
 import Image from "next/image";
-import dashboard from "../../../public/dashborad.png"
+import dashboard from "../../../public/dashboard.png"
 
 const benefits: { title: string, description: string }[] = [
   {
-    title: '24/7 Availability',
-    description: 'Cover three 8-hour shifts 7-days per week with one solution'
+    title: '24/7 Learning Support',
+    description: 'KidX AI provides round-the-clock assistance for children, ensuring continuous learning opportunities.'
   },
   {
-    title: 'Instant Reaction',
-    description: 'Everything that has to be triggered triggers in seconds any time'
+    title: 'Interactive Lessons',
+    description: 'With KidX AI, children can engage in interactive lessons, making learning fun and engaging.'
   },
   {
-    title: 'Results Dashboard',
-    description: 'Developed for your needs to keep track of how much we are helping you'
+    title: 'Voice AI Assistance',
+    description: 'KidX AI utilizes voice AI technology to provide personalized assistance and support for children.'
   },
   {
-    title: 'Continuous improvement',
-    description: 'We address any ideas on how to improve our solution as you use it'
+    title: 'Adaptive Learning',
+    description: 'KidX AI adapts to the learning pace and preferences of each child, providing a tailored educational experience.'
   },
   {
     title: 'No Errors',
-    description: 'Error-Free solutions after careful testing on development stage.'
+    description: 'KidX AI solutions undergo rigorous testing to ensure error-free performance, providing reliable support for children.'
   },
   {
-    title: 'Continuous Learning',
-    description: 'We continuously improve data used for AI based on usage'
+    title: 'Continuous Improvement',
+    description: 'KidX AI continuously enhances its educational offerings based on feedback and evolving learning needs.'
   },
   {
-    title: 'Imitate Human Behavior',
-    description: 'Guests will not suspect that they are talking to AI'
+    title: 'Child-Friendly Interaction',
+    description: 'KidX AI mimics human interaction in a child-friendly manner, fostering a comfortable learning environment for children.'
   },
   {
-    title: 'Seamless Switch to Human',
-    description: 'When required, you can take conversation in your hands'
+    title: 'Seamless Transition to Human Assistance',
+    description: 'KidX AI allows for a smooth transition to human assistance whenever needed, ensuring children receive the support they require.'
   },
 ]
 
@@ -47,7 +47,7 @@ export default function Benefits() {
     <div className="flex items-center flex-col gap-6">
       <div className="font-semibold text-4xl text-center">
         Benefits of Implementing <span className="text-transparent bg-clip-text bg-gradient-primary">
-          AI with Us
+          KidX AI Education with Us
         </span>
       </div>
       <div className="flex gap-2 flex-wrap">
@@ -71,7 +71,7 @@ export default function Benefits() {
         <ModalContent>
           <Image
             src={dashboard}
-            alt="deashboard-example"
+            alt="dashboard-example"
           />
         </ModalContent>
       </Modal>

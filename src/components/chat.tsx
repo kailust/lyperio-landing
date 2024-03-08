@@ -4,15 +4,16 @@ import { ScrollShadow } from "@nextui-org/scroll-shadow";
 import { useEffect } from "react";
 
 const messages: string[] = [
-  'hello, how to turn on the hot water?',
-  'Hi there! To turn on the hot water, you\'ll need to locate the water heater in the kitchen, above the sink. Look for the turn-on button on the right side of the water heater. You can check if it\'s turned on by looking for a red light on the bottom of the water heater. If it was not turned on, just wait about 10 minutes for the water to heat up. Enjoy your hot water!',
-  'whats the closest subway?',
-  'The closest subway station is Poble Sec. It\'s conveniently located near the rental property. Remember to purchase a ticket to access the transportation system. Let me know if there\'s anything else I can help you with!',
-  'how to connect to wifi',
-  'To connect to the WiFi, please check the card provided in the apartment for the network name and password.',
-  'is the tap water safe to drink?',
-  'Yes, tap water in Barcelona is safe to drink. Enjoy your stay!',
-]
+  'Hello, how can I help you learn today?',
+  'Hi there! Are you ready to explore some exciting topics together?',
+  'What\'s the nearest museum to visit for learning about history?',
+  'The nearest museum is the City History Museum. It\'s a fun place to explore and learn!',
+  'How do I solve this math problem: 3x + 5 = 20?',
+  'Let\'s work on it together! First, subtract 5 from both sides to get 3x = 15. Then, divide both sides by 3 to find the value of x. Can you try it?',
+  'What\'s the capital of France?',
+  'The capital of France is Paris. It\'s a beautiful city with lots of history and culture to explore!',
+];
+
 
 export default function Chat(props: { classNames: string }) {
   useEffect(() => {
