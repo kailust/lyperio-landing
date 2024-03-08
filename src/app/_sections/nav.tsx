@@ -7,10 +7,12 @@ export default function Nav() {
   return (
     <Navbar maxWidth="lg">
       <NavbarBrand>
-        <Image
-          src={logo}
-          alt="kidx-logo"
-        />
+        <div style={{ marginTop: "5px" }}> {/* Add a margin-top here */}
+          <Image
+            src={logo}
+            alt="kidx-logo"
+          />
+        </div>
       </NavbarBrand>
       <NavbarContent justify="end">
         <NavbarItem>
